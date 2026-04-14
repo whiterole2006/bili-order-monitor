@@ -1,0 +1,30 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# 敏感数据
+cookies.json
+config.json
+order_history.json
+qr_code.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db

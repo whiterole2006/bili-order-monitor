@@ -1,0 +1,17 @@
+﻿# B站会员购监控配置
+# 首次使用请填写push部分的key
+
+bilibili:
+  login_method: qr
+  username: ""
+  password: ""
+
+push:
+  bark_key: ""
+  bark_server: "https://api.day.app"
+  server_chan_key: ""
+  pushplus_token: ""
+
+monitor:
+  interval: 60
+  remind_before_expire: 2
